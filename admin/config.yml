@@ -1,15 +1,14 @@
 backend:
-  name: github
-  repo: Familiar-stories-247/familiar-stories-blog
+  name: git-gateway
   branch: main
 
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
+media_folder: "assets/images"
+public_folder: "/assets/images"
 
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "content/blog"
+    folder: "posts"
     create: true
     slug: "{{slug}}"
     fields:
