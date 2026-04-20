@@ -2,12 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Content Manager</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMS</title>
   </head>
 
   <body>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 
     <script>
       window.CMS.init({
@@ -17,8 +16,6 @@
             repo: "Familiar-stories-247/familiar-stories-blog",
             branch: "main"
           },
-
-          publish_mode: "editorial_workflow",
 
           media_folder: "assets/images",
           public_folder: "/assets/images",
@@ -35,6 +32,15 @@
                 { label: "Title", name: "title", widget: "string" },
                 { label: "Category", name: "category", widget: "string" },
                 { label: "Date", name: "date", widget: "datetime" },
+                { label: "Body", name: "body", widget: "markdown" }
+              ]
+            }
+          ]
+        }
+      });
+    </script>
+  </body>
+</html>                { label: "Date", name: "date", widget: "datetime" },
                 { label: "Featured Image", name: "image", widget: "image", required: false },
                 { label: "Body", name: "body", widget: "markdown" }
               ]
