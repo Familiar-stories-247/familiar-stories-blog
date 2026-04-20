@@ -1,4 +1,4 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/familiar-stories-blog
+  repo: Familiar-stories-247/familiar-stories-blog
   branch: main
