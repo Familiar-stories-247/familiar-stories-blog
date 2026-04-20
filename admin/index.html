@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Familiar Stories CMS</title>
+    <title>CMS</title>
   </head>
 
   <body>
@@ -22,7 +22,7 @@
 
           collections: [
             {
-              name: "posts",
+              name: "blog_posts",   // 👈 IMPORTANT: changed name
               label: "Posts",
               folder: "data/posts",
               create: true,
@@ -35,6 +35,12 @@
                 { label: "Body", name: "body", widget: "markdown" }
               ]
             }
+          ]
+        }
+      });
+    </script>
+  </body>
+</html>            }
           ]
         }
       });
