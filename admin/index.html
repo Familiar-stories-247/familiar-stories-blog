@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>CMS</title>
+    <title>Familiar Stories CMS</title>
   </head>
 
   <body>
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 
     <script>
-      window.CMS.init({
+      CMS.init({
         config: {
           backend: {
             name: "github",
@@ -32,16 +32,6 @@
                 { label: "Title", name: "title", widget: "string" },
                 { label: "Category", name: "category", widget: "string" },
                 { label: "Date", name: "date", widget: "datetime" },
-                { label: "Body", name: "body", widget: "markdown" }
-              ]
-            }
-          ]
-        }
-      });
-    </script>
-  </body>
-</html>                { label: "Date", name: "date", widget: "datetime" },
-                { label: "Featured Image", name: "image", widget: "image", required: false },
                 { label: "Body", name: "body", widget: "markdown" }
               ]
             }
