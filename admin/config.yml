@@ -2,3 +2,4 @@ backend:
   name: github
   repo: Familiar-stories-247/familiar-stories-blog
   branch: main
+  publish_mode: editorial_workflow
