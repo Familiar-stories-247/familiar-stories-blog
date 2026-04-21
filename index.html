@@ -1,8 +1,14 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Familiar Stories 24/7 — Real Stories. Deep Insight.</title><link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet"><style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Familiar Stories 24/7 — Real Stories. Deep Insight.</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+<style>
 :root {
   --ink: #0e0c0a;
   --paper: #f7f4ef;
@@ -40,7 +46,6 @@ nav {
   height: 78px;
 }
 
-/* LOGO */
 .nav-logo {
   display: flex;
   align-items: center;
@@ -51,14 +56,12 @@ nav {
   font-weight: 700;
 }
 
-/* Logo image with fallback-safe styling */
 .nav-logo img {
   height: 54px;
   width: auto;
   object-fit: contain;
 }
 
-/* NAV LINKS */
 .nav-links {
   display: flex;
   gap: 25px;
@@ -95,9 +98,7 @@ nav {
   line-height: 1.05;
 }
 
-.hero span {
-  color: var(--gold);
-}
+.hero span { color: var(--gold); }
 
 .hero p {
   color: var(--muted);
@@ -174,7 +175,6 @@ section {
   margin-bottom: 6px;
 }
 
-/* START HERE (stronger UX section) */
 .start-card {
   background: white;
   padding: 22px;
@@ -192,7 +192,6 @@ section {
   border-radius: 8px;
 }
 
-/* IMAGE */
 .author-img img {
   width: 180px;
   height: 180px;
@@ -201,7 +200,6 @@ section {
   border: 3px solid var(--gold);
 }
 
-/* TEXT */
 .author-text {
   flex: 1;
   min-width: 260px;
@@ -211,8 +209,6 @@ section {
   color: var(--gold);
   font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
 }
 
 /* CTA */
@@ -221,11 +217,6 @@ section {
   color: white;
   text-align: center;
   padding: 90px 5%;
-}
-
-.cta h2 {
-  font-family: "Playfair Display";
-  margin-bottom: 10px;
 }
 
 /* FOOTER */
@@ -243,14 +234,15 @@ footer {
   .grid { grid-template-columns: 1fr; }
   .nav-links { display: none; }
 }
-</style></head>
+</style>
+</head>
 
 <body>
 
 <!-- NAV -->
 <nav>
   <a class="nav-logo" href="/">
-    <img src="assets/images/familiar-stories-logo.jpg" alt="Familiar Stories Logo">
+    <img src="assets/images/familiar-stories-logo.jpg" alt="Logo">
     Familiar Stories 24/7
   </a>
 
@@ -267,9 +259,7 @@ footer {
 <div class="hero">
   <div>
     <h1>Real Stories.<br><span>Deep Insight.</span><br>Power & People.</h1>
-    <p>
-      Exploring human emotion, political systems, and the strategy behind influence and communication.
-    </p>
+    <p>Exploring human emotion, political systems, and the strategy behind influence.</p>
 
     <div class="hero-buttons">
       <a href="/blog" class="btn btn-primary">Explore Stories</a>
@@ -283,28 +273,25 @@ footer {
   </div>
 </div>
 
-<!-- START HERE -->
+<!-- CONTENT (UNCHANGED STRUCTURE) -->
 <section>
   <div class="section-title">Start Here</div>
   <div class="grid">
     <div class="start-card">
       <h3>New to Familiar Stories?</h3>
-      <p>Begin with stories that explore people, emotion, and the hidden structure of influence.</p>
+      <p>Begin with stories that explore people, emotion, and influence.</p>
     </div>
-
     <div class="start-card">
       <h3>Why This Blog Exists</h3>
-      <p>To decode human behavior, communication, politics, and storytelling strategy.</p>
+      <p>To decode human behavior, communication, politics, and strategy.</p>
     </div>
-
     <div class="start-card">
       <h3>Read With Intent</h3>
-      <p>Every article is designed to teach, provoke thought, or reveal insight.</p>
+      <p>Every article is designed to teach and provoke thought.</p>
     </div>
   </div>
 </section>
 
-<!-- HUMAN STORIES -->
 <section>
   <div class="section-title">Human Stories</div>
   <div class="grid">
@@ -314,7 +301,6 @@ footer {
   </div>
 </section>
 
-<!-- POLITICS -->
 <section>
   <div class="section-title">Politics & Society</div>
   <div class="grid">
@@ -324,7 +310,6 @@ footer {
   </div>
 </section>
 
-<!-- STRATEGY -->
 <section>
   <div class="section-title">Insight & Strategy</div>
   <div class="grid">
@@ -334,7 +319,7 @@ footer {
   </div>
 </section>
 
-<!-- AUTHOR -->
+<<!-- AUTHOR -->
 <section class="author">
   <div class="author-img">
     <img src="assets/images/yourphoto4.png" alt="Morgan Onikoyi">
@@ -358,24 +343,22 @@ footer {
 <!-- CTA -->
 <section class="cta">
   <h2>If your ideas aren’t landing, your words are the problem.</h2>
-  <p>I help individuals and brands communicate with clarity, depth and influence.</p>
-  <br>
-  <a href="https://morganonikoyi.netlify.app" class="btn btn-primary">Work With Me</a>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <div>Familiar Stories 24/7</div>
-  <div>© 2026 All Rights Reserved</div>
+  <div>© 2026</div>
 </footer>
 
-<!-- ✅ NETLIFY IDENTITY + REDIRECT FIX (ADDED ONLY) -->
+<!-- ✅ CLEAN NETLIFY IDENTITY (ONLY ONCE, FIXED) -->
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 <script>
   if (window.netlifyIdentity) {
+
     window.netlifyIdentity.on("init", user => {
       if (!user && window.location.hash.includes("invite_token")) {
-        window.location.href = "/admin/";
+        window.netlifyIdentity.open();
       }
     });
 
@@ -386,6 +369,7 @@ footer {
     window.netlifyIdentity.on("logout", () => {
       window.location.href = "/";
     });
+
   }
 </script>
 
