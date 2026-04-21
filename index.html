@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Familiar Stories 24/7 — Real Stories. Deep Insight.</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
-
-<style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Familiar Stories 24/7 — Real Stories. Deep Insight.</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet"><style>
 :root {
   --ink: #0e0c0a;
   --paper: #f7f4ef;
@@ -20,7 +13,11 @@
   --rule: #d4cfc7;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   background: var(--paper);
@@ -38,207 +35,6 @@ nav {
   border-bottom: 1px solid var(--rule);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 5%;
-  height: 75px;
-}
-
-.nav-logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  text-decoration: none;
-  color: var(--ink);
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-}
-
-.nav-logo img {
-  height: 55px;
-  width: auto;
-}
-
-.nav-links {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: var(--slate);
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.nav-cta {
-  background: var(--ink);
-  color: white !important;
-  padding: 8px 14px;
-  border-radius: 3px;
-}
-
-/* HERO */
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  padding: 80px 5%;
-  align-items: center;
-}
-
-.hero h1 {
-  font-family: "Playfair Display";
-  font-size: 60px;
-}
-
-.hero span { color: var(--gold); }
-
-.hero-buttons {
-  margin-top: 25px;
-  display: flex;
-  gap: 15px;
-}
-
-.btn {
-  padding: 10px 18px;
-  text-decoration: none;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.btn-primary {
-  background: var(--gold);
-  color: white;
-}
-
-.btn-outline {
-  border: 1px solid var(--ink);
-  color: var(--ink);
-}
-
-/* AUTHOR */
-.author {
-  display: flex;
-  gap: 40px;
-  padding: 60px 5%;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.author-img img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 12px;
-  border: 3px solid var(--gold);
-}
-
-.author-text {
-  flex: 1;
-}
-
-/* CTA */
-.cta {
-  background: var(--rust);
-  color: white;
-  text-align: center;
-  padding: 80px 5%;
-}
-
-/* FOOTER */
-footer {
-  background: var(--ink);
-  color: #aaa;
-  padding: 30px 5%;
-  display: flex;
-  justify-content: space-between;
-}
-
-@media(max-width: 900px) {
-  .hero { grid-template-columns: 1fr; }
-  .nav-links { display: none; }
-}
-</style>
-</head>
-
-<body>
-
-<!-- NAV -->
-<nav>
-  <a class="nav-logo" href="/">
-    <img src="assets/images/familiar-stories-logo.jpg" alt="Logo">
-    Familiar Stories 24/7
-  </a>
-
-  <ul class="nav-links">
-    <li><a href="#">Human Stories</a></li>
-    <li><a href="#">Politics</a></li>
-    <li><a href="#">Strategy</a></li>
-    <li><a href="#">Start Here</a></li>
-    <li><a class="nav-cta" href="https://morganonikoyi.netlify.app">Work With Me</a></li>
-  </ul>
-</nav>
-
-<!-- HERO -->
-<div class="hero">
-  <div>
-    <h1>Real Stories.<br><span>Deep Insight.</span><br>Power & People.</h1>
-
-    <div class="hero-buttons">
-      <a href="/blog" class="btn btn-primary">Explore Stories</a>
-      <a href="/blog" class="btn btn-outline">Latest Posts</a>
-    </div>
-  </div>
-
-  <div style="background:#000;color:#fff;padding:40px;">
-    <small style="color:#9c7a22;">Featured</small>
-    <h2>What Power Really Looks Like Behind Political Decisions</h2>
-  </div>
-</div>
-
-<!-- AUTHOR -->
-<section class="author">
-  <div class="author-img">
-    <img src="assets/images/your-photo.jpg" alt="Morgan Onikoyi">
-  </div>
-
-  <div class="author-text">
-    <h2>Morgan Hakeem Onikoyi</h2>
-    <p>Writer • Content Strategist • Storyteller • Web Designer • Graphics Designer</p>
-    <a href="https://morganonikoyi.netlify.app" class="btn btn-outline">View Portfolio</a>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta">
-  <h2>If your ideas aren’t landing, your words are the problem.</h2>
-  <a href="https://morganonikoyi.netlify.app" class="btn btn-primary">Work With Me</a>
-</section>
-
-<footer>
-  <div>Familiar Stories 24/7</div>
-  <div>© 2026</div>
-</footer>
-
-<!-- 🔥 NETLIFY IDENTITY FIX -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-
-</body>
-</html>  justify-content: space-between;
   align-items: center;
   padding: 0 5%;
   height: 78px;
@@ -447,85 +243,151 @@ footer {
   .grid { grid-template-columns: 1fr; }
   .nav-links { display: none; }
 }
-</style></head><body><!-- NAV --><nav>
+</style></head>
+
+<body>
+
+<!-- NAV -->
+<nav>
   <a class="nav-logo" href="/">
     <img src="assets/images/familiar-stories-logo.jpg" alt="Familiar Stories Logo">
     Familiar Stories 24/7
-  </a>  <ul class="nav-links">
+  </a>
+
+  <ul class="nav-links">
     <li><a href="#">Human Stories</a></li>
     <li><a href="#">Politics</a></li>
     <li><a href="#">Strategy</a></li>
     <li><a href="#">Start Here</a></li>
     <li><a class="nav-cta" href="https://morganonikoyi.netlify.app">Work With Me</a></li>
   </ul>
-</nav><!-- HERO --><div class="hero">  <div>
-    <h1>Real Stories.<br><span>Deep Insight.</span><br>Power & People.</h1><p>
-  Exploring human emotion, political systems, and the strategy behind influence and communication.
-</p>
+</nav>
 
-<div class="hero-buttons">
-  <a href="/blog" class="btn btn-primary">Explore Stories</a>
-  <a href="/blog" class="btn btn-outline">Latest Posts</a>
-</div>
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <h1>Real Stories.<br><span>Deep Insight.</span><br>Power & People.</h1>
+    <p>
+      Exploring human emotion, political systems, and the strategy behind influence and communication.
+    </p>
 
-  </div>  <div class="feature">
+    <div class="hero-buttons">
+      <a href="/blog" class="btn btn-primary">Explore Stories</a>
+      <a href="/blog" class="btn btn-outline">Latest Posts</a>
+    </div>
+  </div>
+
+  <div class="feature">
     <small>Featured Story</small>
     <h2>What Power Really Looks Like Behind Political Decisions</h2>
-  </div></div><!-- START HERE --><section>
-  <div class="section-title">Start Here</div>  <div class="grid">
+  </div>
+</div>
+
+<!-- START HERE -->
+<section>
+  <div class="section-title">Start Here</div>
+  <div class="grid">
     <div class="start-card">
       <h3>New to Familiar Stories?</h3>
       <p>Begin with stories that explore people, emotion, and the hidden structure of influence.</p>
-    </div><div class="start-card">
-  <h3>Why This Blog Exists</h3>
-  <p>To decode human behavior, communication, politics, and storytelling strategy.</p>
-</div>
+    </div>
 
-<div class="start-card">
-  <h3>Read With Intent</h3>
-  <p>Every article is designed to teach, provoke thought, or reveal insight.</p>
-</div>
+    <div class="start-card">
+      <h3>Why This Blog Exists</h3>
+      <p>To decode human behavior, communication, politics, and storytelling strategy.</p>
+    </div>
 
+    <div class="start-card">
+      <h3>Read With Intent</h3>
+      <p>Every article is designed to teach, provoke thought, or reveal insight.</p>
+    </div>
   </div>
-</section><!-- HUMAN STORIES --><section>
-  <div class="section-title">Human Stories</div>  <div class="grid">
+</section>
+
+<!-- HUMAN STORIES -->
+<section>
+  <div class="section-title">Human Stories</div>
+  <div class="grid">
     <div class="card"><h3>She Said She Was Fine</h3></div>
     <div class="card"><h3>Why Good People Lose</h3></div>
     <div class="card"><h3>What Silence Means</h3></div>
   </div>
-</section><!-- POLITICS --><section>
-  <div class="section-title">Politics & Society</div>  <div class="grid">
+</section>
+
+<!-- POLITICS -->
+<section>
+  <div class="section-title">Politics & Society</div>
+  <div class="grid">
     <div class="card"><h3>Political Promises</h3></div>
     <div class="card"><h3>Election Strategy</h3></div>
     <div class="card"><h3>Understanding Power</h3></div>
   </div>
-</section><!-- STRATEGY --><section>
-  <div class="section-title">Insight & Strategy</div>  <div class="grid">
+</section>
+
+<!-- STRATEGY -->
+<section>
+  <div class="section-title">Insight & Strategy</div>
+  <div class="grid">
     <div class="card"><h3>Viral Psychology</h3></div>
     <div class="card"><h3>Power of Words</h3></div>
     <div class="card"><h3>Brand Messaging</h3></div>
   </div>
-</section><!-- AUTHOR --><section class="author">  <div class="author-img">
+</section>
+
+<!-- AUTHOR -->
+<section class="author">
+  <div class="author-img">
     <img src="assets/images/yourphoto4.png" alt="Morgan Onikoyi">
-  </div>  <div class="author-text">
-    <h2>Morgan Hakeem Onikoyi</h2><p class="role">
-  Writer • Content Strategist • Storyteller • Web Designer • Graphics Designer
-</p>
+  </div>
 
-<p>
-  I write about people, power, society, and the strategy behind influence.
-  I help individuals and brands communicate ideas with clarity, depth, and impact.
-</p>
+  <div class="author-text">
+    <h2>Morgan Hakeem Onikoyi</h2>
+    <p class="role">
+      Writer • Content Strategist • Storyteller • Web Designer • Graphics Designer
+    </p>
 
-<a href="https://morganonikoyi.netlify.app" class="btn btn-outline">View Portfolio</a>
+    <p>
+      I write about people, power, society, and the strategy behind influence.
+      I help individuals and brands communicate ideas with clarity, depth, and impact.
+    </p>
 
-  </div></section><!-- CTA --><section class="cta">
+    <a href="https://morganonikoyi.netlify.app" class="btn btn-outline">View Portfolio</a>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
   <h2>If your ideas aren’t landing, your words are the problem.</h2>
   <p>I help individuals and brands communicate with clarity, depth and influence.</p>
   <br>
   <a href="https://morganonikoyi.netlify.app" class="btn btn-primary">Work With Me</a>
-</section><!-- FOOTER --><footer>
+</section>
+
+<!-- FOOTER -->
+<footer>
   <div>Familiar Stories 24/7</div>
   <div>© 2026 All Rights Reserved</div>
-</footer></body>
+</footer>
+
+<!-- ✅ NETLIFY IDENTITY + REDIRECT FIX (ADDED ONLY) -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user && window.location.hash.includes("invite_token")) {
+        window.location.href = "/admin/";
+      }
+    });
+
+    window.netlifyIdentity.on("login", () => {
+      window.location.href = "/admin/";
+    });
+
+    window.netlifyIdentity.on("logout", () => {
+      window.location.href = "/";
+    });
+  }
+</script>
+
+</body>
 </html>
